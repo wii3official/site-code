@@ -4,7 +4,7 @@
   "description": "wii3 site written in js",
   "main": "start.js",
   "scripts": {
-    "test": "node start.js"
+    "test": "node start.js",
     "build": "npm install express && npm install path && node start.js"
   },
   "author": "Wii3 Discord",
