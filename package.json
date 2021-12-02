@@ -1,0 +1,12 @@
+{
+  "name": "npmwii3",
+  "version": "1.0.0",
+  "description": "wii3 site written in js",
+  "main": "start.js",
+  "scripts": {
+    "test": "node start.js"
+    "build": "node start.js"
+  },
+  "author": "Wii3 Discord",
+  "license": "ISC"
+}
