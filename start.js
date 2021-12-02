@@ -6,7 +6,8 @@ app.use(express.static(path.join(__dirname, 'Wii3root')));
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'Wii3root', 'index.html'));
+  console.log("sent somethin");
 });
 
 app.listen(9000);
-console.log("ready")
+module.exports.handler = serverless(app);
